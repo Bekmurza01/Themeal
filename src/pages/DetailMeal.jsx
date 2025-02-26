@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
-import apiClient from '../axios/ApiClient'
+import apiClient from '../axios/apiClient'
 import { flag } from '../data/flag'
 const IMAGE_API = "http://www.themealdb.com/images/ingredients"
 const API = "https://www.themealdb.com/images/icons/flags/big/64"
